@@ -1,0 +1,15 @@
+# Part 1
+fastqc SSR072893.fastq
+
+# Part 2
+hisat2 -p 4 -x ~/data/genomes/BDGP6 -U ~/data/rawdata/SRR072893.fastq -s Output.sam
+
+# Part 3
+samtools sort -o Output.sorted.bam ~/data/rawdata/Output.sam        
+samtools index ~/data/rawdata/Output.sorted.bam
+
+# Part 4
+stringtie ~/data/rawdata/Output.sorted.bam -p 4 -e -G ~/data/genomes/BDGP6.Ensembl.81.gtf -o Quantitative.Output.gtf -B
+
+# Part 5
+Skimmed
