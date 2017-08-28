@@ -1,5 +1,7 @@
-  538344 ../../data/genomes/BDGP6.Ensembl.81.gtf
+538344 ../../data/genomes/BDGP6.Ensembl.81.gtf
+
 514
+
 #!genebuild-last-updated 2014-09
 #!genome-build BDGP6
 #!genome-build-accession NCBI:GCA_000001215.4
@@ -13,6 +15,7 @@ gene
 start_codon
 stop_codon
 transcript
+
    1 #!genebuild-last-updated 2014-09
    1 #!genome-build BDGP6
    1 #!genome-build-accession NCBI:GCA_000001215.4
@@ -26,3 +29,104 @@ transcript
 30367 start_codon
 30274 stop_codon
 34718 transcript
+
+3R	gene	722370	722621	-	strand_lenght: 252
+3R	transcript	722370	722621	-	strand_lenght: 252
+3R	exon	722370	722621	-	strand_lenght: 252
+3R	gene	835381	2503907	+	strand_lenght: 1668527
+3R	transcript	835381	2503907	+	strand_lenght: 1668527
+3R	exon	835381	835491	+	strand_lenght: 111
+3R	CDS	835381	835491	+	strand_lenght: 111
+3R	start_codon	835381	835383	+	strand_lenght: 3
+3R	exon	869486	869548	+	strand_lenght: 63
+3R	CDS	869486	869548	+	strand_lenght: 63
+3R	exon	895786	895893	+	strand_lenght: 108
+3R	CDS	895786	895893	+	strand_lenght: 108
+3R	exon	947426	947570	+	strand_lenght: 145
+3R	CDS	947426	947570	+	strand_lenght: 145
+3R	exon	1025040	1025614	+	strand_lenght: 575
+3R	CDS	1025040	1025614	+	strand_lenght: 575
+3R	exon	1138730	1138972	+	strand_lenght: 243
+3R	CDS	1138730	1138972	+	strand_lenght: 243
+3R	exon	1191610	1191975	+	strand_lenght: 366
+3R	CDS	1191610	1191975	+	strand_lenght: 366
+3R	exon	1342196	1342317	+	strand_lenght: 122
+3R	CDS	1342196	1342317	+	strand_lenght: 122
+3R	exon	1454572	1455091	+	strand_lenght: 520
+3R	CDS	1454572	1455091	+	strand_lenght: 520
+3R	exon	1467146	1467258	+	strand_lenght: 113
+3R	CDS	1467146	1467258	+	strand_lenght: 113
+3R	exon	1588295	1588538	+	strand_lenght: 244
+3R	CDS	1588295	1588538	+	strand_lenght: 244
+3R	exon	1845561	1846163	+	strand_lenght: 603
+3R	CDS	1845561	1846163	+	strand_lenght: 603
+3R	exon	1861194	1861417	+	strand_lenght: 224
+3R	CDS	1861194	1861417	+	strand_lenght: 224
+3R	exon	1938067	1938205	+	strand_lenght: 139
+3R	CDS	1938067	1938205	+	strand_lenght: 139
+3R	exon	1961120	1961515	+	strand_lenght: 396
+3R	CDS	1961120	1961515	+	strand_lenght: 396
+3R	exon	2136430	2137402	+	strand_lenght: 973
+3R	CDS	2136430	2137402	+	strand_lenght: 973
+3R	exon	2307285	2307583	+	strand_lenght: 299
+3R	CDS	2307285	2307583	+	strand_lenght: 299
+3R	exon	2413805	2414131	+	strand_lenght: 327
+3R	CDS	2413805	2414131	+	strand_lenght: 327
+3R	exon	2461182	2461592	+	strand_lenght: 411
+3R	CDS	2461182	2461592	+	strand_lenght: 411
+3R	exon	2503677	2503907	+	strand_lenght: 231
+3R	CDS	2503677	2503904	+	strand_lenght: 228
+3R	stop_codon	2503905	2503907	+	strand_lenght: 3
+3R	gene	1031171	1031354	+	strand_lenght: 184
+3R	transcript	1031171	1031354	+	strand_lenght: 184
+3R	exon	1031171	1031354	+	strand_lenght: 184
+3R	gene	2156916	2157206	-	strand_lenght: 291
+3R	transcript	2156916	2157206	-	strand_lenght: 291
+3R	exon	2156916	2157206	-	strand_lenght: 291
+3R	gene	2554124	3263573	-	strand_lenght: 709450
+3R	transcript	2554124	3263573	-	strand_lenght: 709450
+3R	exon	3263513	3263573	-	strand_lenght: 61
+3R	CDS	3263513	3263573	-	strand_lenght: 61
+3R	start_codon	3263571	3263573	-	strand_lenght: 3
+3R	exon	3263195	3263456	-	strand_lenght: 262
+3R	CDS	3263195	3263456	-	strand_lenght: 262
+3R	exon	3262923	3263146	-	strand_lenght: 224
+3R	CDS	3262923	3263146	-	strand_lenght: 224
+3R	exon	3262750	3262870	-	strand_lenght: 121
+3R	CDS	3262750	3262870	-	strand_lenght: 121
+3R	exon	3262573	3262692	-	strand_lenght: 120
+3R	CDS	3262573	3262692	-	strand_lenght: 120
+3R	exon	3262114	3262480	-	strand_lenght: 367
+3R	CDS	3262114	3262480	-	strand_lenght: 367
+3R	exon	3170422	3170666	-	strand_lenght: 245
+3R	CDS	3170422	3170666	-	strand_lenght: 245
+3R	exon	3168995	3169540	-	strand_lenght: 546
+3R	CDS	3168995	3169540	-	strand_lenght: 546
+3R	exon	3061773	3062322	-	strand_lenght: 550
+3R	CDS	3061773	3062322	-	strand_lenght: 550
+3R	exon	3061235	3061718	-	strand_lenght: 484
+3R	CDS	3061235	3061718	-	strand_lenght: 484
+3R	exon	3060393	3061173	-	strand_lenght: 781
+3R	CDS	3060393	3061173	-	strand_lenght: 781
+3R	exon	3031406	3031536	-	strand_lenght: 131
+3R	CDS	3031406	3031536	-	strand_lenght: 131
+3R	exon	2940913	2941229	-	strand_lenght: 317
+3R	CDS	2940913	2941229	-	strand_lenght: 317
+3R	exon	2743787	2744070	-	strand_lenght: 284
+3R	CDS	2743787	2744070	-	strand_lenght: 284
+3R	exon	2743154	2743729	-	strand_lenght: 576
+3R	CDS	2743154	2743729	-	strand_lenght: 576
+3R	exon	2690093	2690237	-	strand_lenght: 145
+3R	CDS	2690093	2690237	-	strand_lenght: 145
+3R	exon	2557978	2558354	-	strand_lenght: 377
+3R	CDS	2557978	2558354	-	strand_lenght: 377
+3R	exon	2554470	2555023	-	strand_lenght: 554
+3R	CDS	2554470	2555023	-	strand_lenght: 554
+3R	exon	2554124	2554398	-	strand_lenght: 275
+3R	CDS	2554127	2554398	-	strand_lenght: 272
+3R	stop_codon	2554124	2554126	-	strand_lenght: 3
+3R	gene	2744304	2744800	-	strand_lenght: 497
+3R	transcript	2744304	2744800	-	strand_lenght: 497
+3R	exon	2744758	2744800	-	strand_lenght: 43
+3R	exon	2744304	2744698	-	strand_lenght: 395
+3R	transcript	2744305	2744800	-	strand_lenght: 496
