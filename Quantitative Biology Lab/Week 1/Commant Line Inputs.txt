@@ -1,0 +1,7 @@
+Command Line Inputs
+
+./blastn -query week1_query.fa -db nr -evalue 0.0001 -outfmt "6 sseqid sseq" -out 1000_homologs.tsv -num_alignments 1000 -remote
+./fasta_converter.py blast_alignment.tsv >1000_homologs.fa
+transeq 1000_homologs.fa >1000_h_prot.fa
+mafft 1000_h_prot.fa >alignment_prot.fa
+./codon_changes.py alignment_nuc.fa
