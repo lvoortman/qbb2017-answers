@@ -5,6 +5,7 @@ import fasta
 import itertools
 import matplotlib.pyplot as plt
 import numpy as np
+import math
 
 codon_wheel = {
     'ATA':'I', 'ATC':'I', 'ATT':'I', 'ATG':'M',
@@ -55,11 +56,7 @@ while nuc_count < 14614:
     target_query.append(target)
     nuc_count +=3
 
-
-
-#for c in itertools.izip(codon_query, target_query):
-#    print c
-print len(target_seq)
+#print len(target_seq)
 
 for n in range(len(target_seq)):
     count = 0
@@ -87,17 +84,25 @@ for n in range(len(target_seq)):
             count += 3
             prot_count += 1      
         else:
-            print "Error in code"
+            print "Error"
 
 dN_dS = [int(n) - int(s) for n,s in zip (dN, dS)]
 
-print len(dN)
-print len(dS)        
+#print len(dN)
+#print len(dS)        
 #print dN_dS
 
 plt.figure()
 plt.plot(dN_dS)
-plt.xlabel("Gene Loc")
+plt.xlabel("Codon Location")
 plt.ylabel("dN-dS")
 plt.savefig( "dN_dS_plot" + ".png")
 plt.close()
+
+
+sd = np.std(dN_dS)
+mean = np.mean(dN_dS)
+sem = (sd) / math.sqrt(4871)
+print sd
+print mean
+print sem
