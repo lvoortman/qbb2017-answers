@@ -1,0 +1,5 @@
+Contig Count = 2
+Max = 99915
+Min = 111
+Mean Length = 50013.0
+L/2 = 50013
