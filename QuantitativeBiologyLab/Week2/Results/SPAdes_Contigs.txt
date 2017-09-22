@@ -1,0 +1,6 @@
+Contig Count = 123
+Max = 1409
+Min = 207
+Mean Length = 379.81300813
+L/2 = 23358
+N50 = 373
