@@ -1,0 +1,157 @@
+/usr/local/Cellar/quast/4.5/quast.py ./SPAdes/contigs.fasta ./SPAdes_long/contigs.fasta ./Velvet/contigs.fa ./Velvet_Long/contigs.fa ./OxfordNanopore/contigs.fasta -R reference.fasta -o quazt/
+
+Version: 4.5, 15ca3b9
+
+System information:
+  OS: Darwin-16.7.0-x86_64-i386-64bit (macosx)
+  Python version: 2.7.10
+  CPUs number: 4
+
+Started: 2017-09-22 10:46:33
+
+Logging to /Users/cmdb/qbb2017-answers/QuantitativeBiologyLab/Week2/quazt/quast.log
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used
+NOTICE: Maximum number of threads is set to 1 (use --threads option to set it manually)
+
+CWD: /Users/cmdb/qbb2017-answers/QuantitativeBiologyLab/Week2
+Main parameters: 
+  Threads: 1, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Reference:
+  reference.fasta ==> reference
+
+Contigs:
+  Pre-processing...
+  1  ./SPAdes/contigs.fasta ==> SPAdes_contigs
+  2  ./SPAdes_long/contigs.fasta ==> SPAdes_long_contigs
+  3  ./Velvet/contigs.fa ==> Velvet_contigs
+  4  ./Velvet_Long/contigs.fa ==> Velvet_Long_contigs
+  5  ./OxfordNanopore/contigs.fasta ==> OxfordNanopore_contigs
+
+2017-09-22 10:46:36
+Running Basic statistics processor...
+  Reference genome:
+    reference.fasta, length = 4639675, num fragments = 1, GC % = 50.79
+  Contig files: 
+    1  SPAdes_contigs
+    2  SPAdes_long_contigs
+    3  Velvet_contigs
+    4  Velvet_Long_contigs
+    5  OxfordNanopore_contigs
+  Calculating N50 and L50...
+    1  SPAdes_contigs, N50 = 718, L50 = 8, Total length = 14250, GC % = 51.43, # N's per 100 kbp =  0.00
+    2  SPAdes_long_contigs, N50 = 99915, L50 = 1, Total length = 99915, GC % = 52.58, # N's per 100 kbp =  0.00
+    3  Velvet_contigs, N50 = 632, L50 = 5, Total length = 7243, GC % = 50.71, # N's per 100 kbp =  0.00
+    4  Velvet_Long_contigs, N50 = 19911, L50 = 2, Total length = 99562, GC % = 52.58, # N's per 100 kbp =  0.00
+    5  OxfordNanopore_contigs, N50 = 4036, L50 = 6, Total length = 58343, GC % = 52.39, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /Users/cmdb/qbb2017-answers/QuantitativeBiologyLab/Week2/quazt/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /Users/cmdb/qbb2017-answers/QuantitativeBiologyLab/Week2/quazt/basic_stats/NGx_plot.pdf
+  Drawing cumulative plot...
+    saved to /Users/cmdb/qbb2017-answers/QuantitativeBiologyLab/Week2/quazt/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /Users/cmdb/qbb2017-answers/QuantitativeBiologyLab/Week2/quazt/basic_stats/GC_content_plot.pdf
+  Drawing SPAdes_contigs GC content plot...
+    saved to /Users/cmdb/qbb2017-answers/QuantitativeBiologyLab/Week2/quazt/basic_stats/SPAdes_contigs_GC_content_plot.pdf
+  Drawing SPAdes_long_contigs GC content plot...
+    saved to /Users/cmdb/qbb2017-answers/QuantitativeBiologyLab/Week2/quazt/basic_stats/SPAdes_long_contigs_GC_content_plot.pdf
+  Drawing Velvet_contigs GC content plot...
+    saved to /Users/cmdb/qbb2017-answers/QuantitativeBiologyLab/Week2/quazt/basic_stats/Velvet_contigs_GC_content_plot.pdf
+  Drawing Velvet_Long_contigs GC content plot...
+    saved to /Users/cmdb/qbb2017-answers/QuantitativeBiologyLab/Week2/quazt/basic_stats/Velvet_Long_contigs_GC_content_plot.pdf
+  Drawing OxfordNanopore_contigs GC content plot...
+    saved to /Users/cmdb/qbb2017-answers/QuantitativeBiologyLab/Week2/quazt/basic_stats/OxfordNanopore_contigs_GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 1x)...
+    saved to /Users/cmdb/qbb2017-answers/QuantitativeBiologyLab/Week2/quazt/basic_stats/coverage_histogram.pdf
+  Drawing SPAdes_contigs coverage histogram (bin size: 1x)...
+    saved to /Users/cmdb/qbb2017-answers/QuantitativeBiologyLab/Week2/quazt/basic_stats/SPAdes_contigs_coverage_histogram.pdf
+  Drawing SPAdes_long_contigs coverage histogram (bin size: 1x)...
+    saved to /Users/cmdb/qbb2017-answers/QuantitativeBiologyLab/Week2/quazt/basic_stats/SPAdes_long_contigs_coverage_histogram.pdf
+  Drawing Velvet_contigs coverage histogram (bin size: 1x)...
+    saved to /Users/cmdb/qbb2017-answers/QuantitativeBiologyLab/Week2/quazt/basic_stats/Velvet_contigs_coverage_histogram.pdf
+  Drawing Velvet_Long_contigs coverage histogram (bin size: 7x)...
+    saved to /Users/cmdb/qbb2017-answers/QuantitativeBiologyLab/Week2/quazt/basic_stats/Velvet_Long_contigs_coverage_histogram.pdf
+  Drawing OxfordNanopore_contigs coverage histogram (bin size: 1x)...
+    saved to /Users/cmdb/qbb2017-answers/QuantitativeBiologyLab/Week2/quazt/basic_stats/OxfordNanopore_contigs_coverage_histogram.pdf
+Done.
+
+2017-09-22 10:46:41
+Running Contig analyzer...
+NOTICE: Previous try of gnuplot compilation was unsuccessful! For forced retrying, please remove /usr/local/Cellar/quast/4.5/quast_libs/gnuplot/make.failed and restart QUAST. 
+  1  SPAdes_contigs
+  1  Logging to files /Users/cmdb/qbb2017-answers/QuantitativeBiologyLab/Week2/quazt/contigs_reports/contigs_report_SPAdes_contigs.stdout and contigs_report_SPAdes_contigs.stderr...
+  1  Aligning contigs to the reference
+  1  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/nucmer -c 65 -l 65 --maxmatch -p \
+     quazt/contigs_reports/nucmer_output/SPAdes_contigs --emem -t 1 --emempath /usr/local/bin/e-mem \
+     quazt/quast_corrected_input/reference.fasta quazt/quast_corrected_input/SPAdes_contigs.fasta \
+     >> quazt/contigs_reports/contigs_report_SPAdes_contigs.stdout 2>> quazt/contigs_reports/contigs_report_SPAdes_contigs.stderr
+     The tool returned non-zero. See quazt/contigs_reports/contigs_report_SPAdes_contigs.stderr for stderr.
+
+ERROR!   1  Failed aligning contigs SPAdes_contigs to the reference (non-zero exit code). Run with the --debug flag to see additional information.
+  2  SPAdes_long_contigs
+  2  Logging to files /Users/cmdb/qbb2017-answers/QuantitativeBiologyLab/Week2/quazt/contigs_reports/contigs_report_SPAdes_long_contigs.stdout and contigs_report_SPAdes_long_contigs.stderr...
+  2  Aligning contigs to the reference
+  2  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/nucmer -c 65 -l 65 --maxmatch -p \
+     quazt/contigs_reports/nucmer_output/SPAdes_long_contigs --emem -t 1 --emempath \
+     /usr/local/bin/e-mem quazt/quast_corrected_input/reference.fasta quazt/quast_corrected_input/SPAdes_long_contigs.fasta \
+     >> quazt/contigs_reports/contigs_report_SPAdes_long_contigs.stdout 2>> quazt/contigs_reports/contigs_report_SPAdes_long_contigs.stderr
+     The tool returned non-zero. See quazt/contigs_reports/contigs_report_SPAdes_long_contigs.stderr for stderr.
+
+ERROR!   2  Failed aligning contigs SPAdes_long_contigs to the reference (non-zero exit code). Run with the --debug flag to see additional information.
+  3  Velvet_contigs
+  3  Logging to files /Users/cmdb/qbb2017-answers/QuantitativeBiologyLab/Week2/quazt/contigs_reports/contigs_report_Velvet_contigs.stdout and contigs_report_Velvet_contigs.stderr...
+  3  Aligning contigs to the reference
+  3  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/nucmer -c 65 -l 65 --maxmatch -p \
+     quazt/contigs_reports/nucmer_output/Velvet_contigs --emem -t 1 --emempath /usr/local/bin/e-mem \
+     quazt/quast_corrected_input/reference.fasta quazt/quast_corrected_input/Velvet_contigs.fa \
+     >> quazt/contigs_reports/contigs_report_Velvet_contigs.stdout 2>> quazt/contigs_reports/contigs_report_Velvet_contigs.stderr
+     The tool returned non-zero. See quazt/contigs_reports/contigs_report_Velvet_contigs.stderr for stderr.
+
+ERROR!   3  Failed aligning contigs Velvet_contigs to the reference (non-zero exit code). Run with the --debug flag to see additional information.
+  4  Velvet_Long_contigs
+  4  Logging to files /Users/cmdb/qbb2017-answers/QuantitativeBiologyLab/Week2/quazt/contigs_reports/contigs_report_Velvet_Long_contigs.stdout and contigs_report_Velvet_Long_contigs.stderr...
+  4  Aligning contigs to the reference
+  4  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/nucmer -c 65 -l 65 --maxmatch -p \
+     quazt/contigs_reports/nucmer_output/Velvet_Long_contigs --emem -t 1 --emempath \
+     /usr/local/bin/e-mem quazt/quast_corrected_input/reference.fasta quazt/quast_corrected_input/Velvet_Long_contigs.fa \
+     >> quazt/contigs_reports/contigs_report_Velvet_Long_contigs.stdout 2>> quazt/contigs_reports/contigs_report_Velvet_Long_contigs.stderr
+     The tool returned non-zero. See quazt/contigs_reports/contigs_report_Velvet_Long_contigs.stderr for stderr.
+
+ERROR!   4  Failed aligning contigs Velvet_Long_contigs to the reference (non-zero exit code). Run with the --debug flag to see additional information.
+  5  OxfordNanopore_contigs
+  5  Logging to files /Users/cmdb/qbb2017-answers/QuantitativeBiologyLab/Week2/quazt/contigs_reports/contigs_report_OxfordNanopore_contigs.stdout and contigs_report_OxfordNanopore_contigs.stderr...
+  5  Aligning contigs to the reference
+  5  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/nucmer -c 65 -l 65 --maxmatch -p \
+     quazt/contigs_reports/nucmer_output/OxfordNanopore_contigs --emem -t 1 --emempath \
+     /usr/local/bin/e-mem quazt/quast_corrected_input/reference.fasta quazt/quast_corrected_input/OxfordNanopore_contigs.fasta \
+     >> quazt/contigs_reports/contigs_report_OxfordNanopore_contigs.stdout 2>> quazt/contigs_reports/contigs_report_OxfordNanopore_contigs.stderr
+     The tool returned non-zero. See quazt/contigs_reports/contigs_report_OxfordNanopore_contigs.stderr for stderr.
+
+ERROR!   5  Failed aligning contigs OxfordNanopore_contigs to the reference (non-zero exit code). Run with the --debug flag to see additional information.
+Failed aligning the contigs for all the assemblies. Only basic stats are going to be evaluated.
+WARNING: Please rerun QUAST using --test option to ensure that E-MEM aligner works properly.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2017-09-22 10:46:43
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2017-09-22 10:46:45
+RESULTS:
+  Text versions of total report are saved to /Users/cmdb/qbb2017-answers/QuantitativeBiologyLab/Week2/quazt/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /Users/cmdb/qbb2017-answers/QuantitativeBiologyLab/Week2/quazt/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /Users/cmdb/qbb2017-answers/QuantitativeBiologyLab/Week2/quazt/report.html
+  PDF version (tables and plots) is saved to /Users/cmdb/qbb2017-answers/QuantitativeBiologyLab/Week2/quazt/report.pdf
+  Icarus (contig browser) is saved to /Users/cmdb/qbb2017-answers/QuantitativeBiologyLab/Week2/quazt/icarus.html
+  Log saved to /Users/cmdb/qbb2017-answers/QuantitativeBiologyLab/Week2/quazt/quast.log
+
+Finished: 2017-09-22 10:46:45
+Elapsed time: 0:00:11.843571
+NOTICEs: 4; WARNINGs: 1; non-fatal ERRORs: 5
+
+Thank you for using QUAST!

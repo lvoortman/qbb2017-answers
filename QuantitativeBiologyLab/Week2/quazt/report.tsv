@@ -1,0 +1,25 @@
+Assembly	SPAdes_contigs	SPAdes_long_contigs	Velvet_contigs	Velvet_Long_contigs	OxfordNanopore_contigs
+# contigs (>= 0 bp)	123	2	305	11	64
+# contigs (>= 1000 bp)	3	1	0	7	18
+# contigs (>= 5000 bp)	0	1	0	7	3
+# contigs (>= 10000 bp)	0	1	0	4	0
+# contigs (>= 25000 bp)	0	1	0	1	0
+# contigs (>= 50000 bp)	0	1	0	0	0
+Total length (>= 0 bp)	46717	100026	56973	100061	70165
+Total length (>= 1000 bp)	3514	99915	0	99562	54576
+Total length (>= 5000 bp)	0	99915	0	99562	17908
+Total length (>= 10000 bp)	0	99915	0	81134	0
+Total length (>= 25000 bp)	0	99915	0	33235	0
+Total length (>= 50000 bp)	0	99915	0	0	0
+# contigs	19	1	11	7	23
+Largest contig	1409	99915	998	33235	6731
+Total length	14250	99915	7243	99562	58343
+Reference length	4639675	4639675	4639675	4639675	4639675
+GC (%)	51.43	52.58	50.71	52.58	52.39
+Reference GC (%)	50.79	50.79	50.79	50.79	50.79
+N50	718	99915	632	19911	4036
+N75	587	99915	542	13440	1961
+L50	8	1	5	2	6
+L75	13	1	8	4	11
+# N's per 100 kbp	0.00	0.00	0.00	0.00	0.00
+NGA50	-	-	-	-	-
