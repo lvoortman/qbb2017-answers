@@ -1,0 +1,9 @@
+Commands into Command Line
+
+bwa index <index>
+
+bwa mem -R '@RG\tID:63' <index.fa> <sequence.fasta> > <output>.sam
+
+samtools view -bS SamFiles/<sam file> | samtools sort - -o <output file>.bam
+
+freebayes -q 30 -f sacCer3.fa ./BamFiles/* > Variants.vcf
