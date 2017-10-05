@@ -1,0 +1,11 @@
+Week 4 Commands
+
+PCA:
+plink2 --pca 2 --allow-extra-chr --vcf BYxRM_segs_saccer3.bam.simplified.vcf --mind
+
+Allele Frequency 
+plink2 --freq --vcf BYxRM_segs_saccer3.bam.simplified.vcf --allow-extra-chr
+
+
+Phenotypes:
+plink2 --vcf BYxRM_segs_saccer3.bam.simplified.vcf --pheno tabBYxRM_PhenoData.txt --allow-no-sex --linear --allow-extra-chr --all-pheno
