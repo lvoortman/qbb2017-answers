@@ -1,0 +1,15 @@
+Creating the Reference Index:
+bowtie2-build chr19.fa index
+
+Creating Sequence Allignments:
+bowtie2 -x Index/index -U Data/(sequence to be aligned) -S
+
+Making the sam files bam files:
+samtools view -bS Sam\ Files/input_G1E.sam > input_G1E.bam
+
+Creating Narrow Peaks using MACS:
+macs2 callpeak -t (CTCF.bam file) -c (input.bam file) -f BAM -g mm --outdir MACS/ -n (output file name) 
+
+Differential Binding:
+bedtools intersect -v -a MACS/CTCF_G1E_peaks.narrowPeak -b MACS/CTCF_ER4_peaks.narrowPeak | head -100 > CTCF_Lost_Binding 
+bedtools intersect -v -a MACS/CTCF_ER4_peaks.narrowPeak -b MACS/CTCF_G1E_peaks.narrowPeak | head -100 > CTCF_Gained_Binding 
