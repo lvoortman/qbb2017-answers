@@ -1,0 +1,78 @@
+PANTHER GENE INFORMATION   
+Gene Symbol(s):	Spry4
+Organism:	Mus musculus
+View Gene in Tree	
+Tree	Reduced Tree  
+Tree	Reduced Tree
+Gene Name:	Protein sprouty homolog 4
+Gene ID:	MGI:1345144
+Protein ID:	Q9WTP2
+Alternate Ids:	
+Mm.42038(UniGene)	AAH57005(EMBL-CDS)
+29747900(GI)	ENSMUSP00000025295(Ensembl_PRO)
+AK037180(EMBL)	24066(GeneID)
+ENSMUSG00000024427(Ensembl)	SPY4(Synonym)
+Q543R1(AltAccession)	MGI:1345144(MGI)
+SPY4_MOUSE(UniProtKB-ID)	NP_036028(refSeq)
+Spry4(Symbol)	ENSMUST00000025295(Ensembl_TRS)
+Show All
+
+PANTHER CLASSIFICATION
+PANTHER Family:	FAMILY NOT NAMED (PTHR12365) 
+PANTHER Subfamily:	PROTEIN SPROUTY HOMOLOG 4 (PTHR12365:SF6)  
+PANTHER GO-slim Molecular Function:	protein kinase activity
+signal transducer activity
+
+PANTHER GO-slim Biological Process:	
+MAPK cascade
+regulation of catalytic activity
+regulation of phosphate metabolic process
+response to endogenous stimulus
+single-multicellular organism process
+system development
+transmembrane receptor protein tyrosine kinase signaling pathway
+
+PANTHER GO-slim Cellular Component:	cytosol
+
+PANTHER protein class:	
+signaling molecule
+transcription factor
+
+Pathway Categories:	
+FGF signaling pathway sprouty
+EGF receptor signaling pathway sprouty
+EGF receptor signaling pathway sprouty
+
+GENE ONTOLOGY DATABASE ANNOTATIONS      Click to Expand...
+REACTOME DATABASE ANNOTATIONS   Click to Expand...
+
+ORTHOLOGS   
+
+ID	Organism	Type   
+MOUSE|MGI=MGI=1345139|UniProtKB=Q9QXV9	Bilateria-Chordata	P
+MOUSE|MGI=MGI=1345138|UniProtKB=Q9QXV8	Bilateria-Chordata	P
+HUMAN|HGNC=15533|UniProtKB=Q9C004	Homo sapiens	LDO
+PANTR|Ensembl=ENSPTRG00000017360|UniProtKB=H2QRP3	Pan troglodytes	LDO
+GORGO|Ensembl=ENSGGOG00000016991|UniProtKB=G3RLD9	Gorilla gorilla gorilla	LDO
+MACMU|Ensembl=ENSMMUG00000014175|UniProtKB=A0A1D5Q575	Macaca mulatta	LDO
+RAT|RGD=1305324|UniProtKB=D3ZJA3	Rattus norvegicus	LDO
+BOVIN|Ensembl=ENSBTAG00000008250|UniProtKB=A2VDU1	Bos taurus	LDO
+PIG|Ensembl=ENSSSCG00000014397|UniProtKB=F1RM39	Sus scrofa	LDO
+HORSE|Ensembl=ENSECAG00000005384|UniProtKB=F6QRR8	Equus caballus	LDO
+FELCA|Ensembl=ENSFCAG00000003690|UniProtKB=M3W0T0	Felis catus	LDO
+CANLF|Ensembl=ENSCAFG00000006250|UniProtKB=F1Q4C2	Canis lupus familiaris	LDO
+MONDO|Ensembl=ENSMODG00000023756|UniProtKB=F6TED5	Monodelphis domestica	LDO
+ORNAN|Ensembl=ENSOANG00000002519|UniProtKB=F6UGS0	Ornithorhynchus anatinus	LDO
+CHICK|Ensembl=ENSGALG00000033012|UniProtKB=A0FK60	Gallus gallus	LDO
+ANOCA|Ensembl=ENSACAG00000013420|UniProtKB=G1KNR2	Anolis carolinensis	LDO
+XENTR|Xenbase=XB-GENE-480765|UniProtKB=F6XSA6	Xenopus tropicalis	LDO
+ORYLA|Ensembl=ENSORLG00000001490|UniProtKB=H2L7M7	Oryzias latipes	LDO
+DANRE|ZFIN=ZDB-GENE-010803-2|UniProtKB=F1QZW4	Danio rerio	LDO
+BRAFL|Gene=BRAFLDRAFT_117102|UniProtKB=C3XWE3	Branchiostoma floridae	O
+DROME|FlyBase=FBgn0014388|UniProtKB=O44783	Drosophila melanogaster	O
+TRICA|EnsemblGenome=TC007446|UniProtKB=A0A139WIU8	Tribolium castaneum	O
+DAPPU|EnsemblGenome=DAPPUDRAFT_232727|UniProtKB=E9FRH9	Daphnia pulex	O
+IXOSC|EnsemblGenome=ISCW019396|UniProtKB=B7PS40	Ixodes scapularis	O
+HELRO|EnsemblGenome=HelroG192855|UniProtKB=T1FUD2	helobdella robusta	O
+HELRO|EnsemblGenome=HelroG164648|UniProtKB=T1EVP1	helobdella robusta	O
+NEMVE|EnsemblGenome=NEMVEDRAFT_v1g201202|UniProtKB=A7RRW2	Nematostella vectensis	O
