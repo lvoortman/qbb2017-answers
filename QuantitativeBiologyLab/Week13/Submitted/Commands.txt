@@ -1,0 +1,4 @@
+Commands:
+
+Putting KRAKEN files into a readable format:
+awk '{gsub (";","\t")}{print}' week13_data/KRAKEN/SRR492183.kraken > kraken83.txt

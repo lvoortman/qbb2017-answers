@@ -1,0 +1,10 @@
+Bin Identity Predictions
+
+Bin 1: Staphylococcus haemolyticus
+Bin 2: Leuconostoc citreum
+Bin 3: Staphylococcus lugdunensis
+Bin 4: Enterococcus faecalis
+Bin 5: Cutibacterium avidum
+Bin 6: Staphylococcus epidermidis
+Bin 7: Staphylococcus aureus
+Bin 8: Anaerococcus prevotii

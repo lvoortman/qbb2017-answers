@@ -1,0 +1,19 @@
+Question 1: Briefly comment on the trends you see in the gut microbiota throughout the first week.
+
+The git microbiota from cosecutive days cosistently are comprised of predominantly bacteria from the Enterococcus and Staphylococcus families. Additionally, cutibacterium shows up immediately in the first day to a reasonably large percent, however is lost in the following days, but then returns and comprises ~25% of the microbiota by the final timepoint.
+
+Question 2: What metrics in the contigs can we use to group them together?
+
+We could order the kmers by their frequency in each contig.
+
+Question 3: How many bins did you get? Roughly what percentage of the assembly do they represent? Do you think the sizes of each bin look about right based on what you know about the size of prokaryotic genomes? How would you estimate how complete and how contaminated each bins is?
+
+We ended up with eight bins.
+
+Question 4: This approach to classification is fast, but also not very quantitative. Propose one method to more robustly estimate the taxonomy of a metagenomic bin
+
+
+
+Question 5: Compare the results of the individual genome abundance analysis to the conclusions you derived from looking at the read taxonomy distributions. Do they agree with each other? What is different?
+
+The heatmap agrees with the qualitative measurements by the KRAKEN analysis. However, I did not recognize the Anerococcus appearance in the final timepoint.
